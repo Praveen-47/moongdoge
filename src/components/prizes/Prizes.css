@@ -1,0 +1,25 @@
+.prize__container{
+    border: 1px solid #1363DF;
+    padding: 40px 50px;
+    background-color: rgb(30, 30, 30);
+    min-height: 100%;
+}
+.prize__container ol{
+    margin: 0;
+    padding: 0;
+}
+.prize__container h3{
+    margin-bottom: 30px;
+}
+.prize__container li{
+    color: #fff;
+    font-size:17px;
+    margin-bottom:10px
+}
+
+@media only screen and (max-width:992px){
+    .prizes .col-md-6{
+        width: 100%;
+        margin-bottom:30px;
+    }
+}

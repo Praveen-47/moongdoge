@@ -1,0 +1,291 @@
+.hero{
+    padding-top: 100px!important;
+    position: relative;
+    text-align: center;
+    z-index: 1000;
+    /* background-size: cover; */
+}
+.hero__bg__overlay {
+    background: linear-gradient(357deg,#000,#00000049);
+    background-position: 100%,0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.hero .video__container{
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+}
+.video__container video {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.hero h2{
+    color: #1363DF !important;
+    text-shadow: 0px 0px 21px #1363DF;
+}
+.hero__content{
+    position: relative;
+    z-index: 1000;
+}
+.hero__content img{
+    display: block;
+    margin: 20px auto;
+    max-width:100%;
+    border-radius: 50%;
+    /* animation: rotate__image infinite 7s linear; */
+    transform: rotateZ(30deg)
+}
+@keyframes rotate__image {
+    from{
+        transform: rotateZ(0);
+    } to{
+        transform: rotateZ(360deg);
+    }
+}
+.hero__content p{
+    color: #fff !important;
+    font-size:18px;
+    font-weight: 600;
+}
+.hero__content p.p1{
+    margin-top:20px !important;
+}
+.hero__content h3{
+    margin-bottom: 20px;
+}
+.hero__content h4{
+    color: #fff;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom:50px;
+    font-size: 18px;
+}
+.hero__content a{
+    cursor: pointer;
+    font-size: 20px !important;
+    padding: 20px 40px;
+}
+.hero a.whitepaper{
+    cursor: pointer;
+    border: 1px solid #1363DF;
+    color: rgb(16, 16, 16);
+}
+a.mint{
+    cursor: pointer;
+    border: 1px solid #1363DF !important;
+    color: #1363DF !important;
+    background: none;
+    margin-left: 30px;
+}
+a.mint:hover{
+    cursor: pointer;
+    /* border: 1px solid #fff !important; */
+    color: rgb(16, 16, 16) !important;
+    background: #1363DF;
+}
+.hero img{
+    margin-bottom: 50px;
+}
+/* .timer .col-md-3{
+    padding: 20px 50px;
+} */
+.timer{
+    padding: 0px 200px;
+}
+.timer__box{
+    padding: 20px 0px;
+    border: 1px solid #1363DF;
+    text-align: center;
+}
+.timer__box h2{
+    color: #1363DF !important;
+    margin-bottom: 15px !important;
+    font-size: 60px !important;
+}
+.timer__box h4{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width:1399px){
+    .timer{
+        padding: 0px 100px;
+    }
+    .timer__box h4{
+        font-size: 20px;
+    }
+    .hero__bg__overlay {
+        background: linear-gradient(357deg,#000,#00000049);
+        background-position: 100%,0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+}
+
+@media only screen and (max-width:1199px){
+    .timer{
+        padding: 0px 200px;
+    }
+    .timer .col-md-3{
+        width: 50%;
+    }
+    .timer__box{
+        margin-bottom: 20px;
+    }
+    .sec-7 h2 {
+        font-size: 45px !important;
+    }
+    .sec-6 {
+        margin-top: 227px !important;
+    }
+    .sec-5 img {
+        bottom: -77px !important;
+    }
+    .hero__bg__overlay {
+        background: linear-gradient(357deg,#000,#00000049);
+        background-position: 100%,0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .timer{
+        padding: 0px 100px;
+    }
+    .about__content {
+        padding-right: 0px !important;
+    }
+    .feature{
+        text-align: center;
+    }
+    .hero{
+        padding-bottom: 50px !important;
+    }
+    .about,.features,.utility,.roadmap,.team{
+        text-align: center !important;
+        padding-bottom: 0 !important;
+    }
+    .faq{
+        text-align: center;
+    }
+    .hero__bg__overlay {
+        background: linear-gradient(357deg,#000,#00000049);
+        background-position: 100%,0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .timer{
+        padding: 0px 50px;
+    }
+    .hero__bg__overlay {
+        background: linear-gradient(357deg,#000,#00000049);
+        background-position: 100%,0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+}
+@media only screen and (max-width:499px){
+    .timer .col-md-3{
+        width: 100%;
+    }
+    h2{
+        font-size: 50px;
+    }
+    .hero a.whitepaper{
+        width: 100%;
+    display: block;
+    margin-bottom: 40px;
+    }
+    .hero a.mint{
+        margin-left: 0 !important;
+    }
+    .hero__bg__overlay {
+        background: linear-gradient(357deg,#000,#00000049);
+        background-position: 100%,0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    .social-wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .about__img .col-md-6 {
+        width: 100% !important;
+    }
+    .hero__bg__overlay {
+        background: linear-gradient(357deg,#000,#00000049);
+        background-position: 100%,0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+}

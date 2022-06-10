@@ -1,0 +1,21 @@
+.whitepaper__section{
+    text-align: center;
+}
+.whitepaper__content{
+    height: 100px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    width: 80%;
+    margin: 0 auto 40px auto;
+}
+.whitepaper__content p{
+    color: #fff;
+    font-size:17px;
+}
+.show-whitepaper{
+    height: auto !important;
+    overflow: visible !important;
+}
+a.whitepaper{
+    cursor: pointer;
+}

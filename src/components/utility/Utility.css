@@ -1,0 +1,18 @@
+.utility .col-md-12{
+    text-align: center;
+}
+.utility h3{
+    margin-bottom: 40px;
+}
+.single__benefit{
+    /* border: 2px solid #fff; */
+    background-color: #1363DF;
+    padding: 20px 60px;
+    margin-bottom: 15px;
+    border-radius: 0.3rem;
+}
+.single__benefit p{
+    color: rgb(16, 16, 16);
+    font-size: 17px;
+    font-weight: 600;
+}
